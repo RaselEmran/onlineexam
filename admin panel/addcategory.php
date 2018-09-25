@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST")
     $price =$_POST["price"];
   }
         if (empty($_FILES["file"] ["name"])) {
-               $file_err ="Missing";
+               $file_err ="Missing image";
             }
             else{
              $file = $_FILES["file"] ["name"];
